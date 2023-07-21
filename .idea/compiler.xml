@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AbstractClasses" />
-        <module name="Deadlock" />
         <module name="ImageResizer" />
         <module name="Concurrency" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Deadlock" target="19" />
+      <module name="Multithreading" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
